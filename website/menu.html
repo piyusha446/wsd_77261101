@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Foodie Menu Page </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+	<!-- _________________________NAVIGATION BAR_________________________ -->
+	
+	<header>
+		<div class="wrapper">
+			<a href="index.html" class="logo"> Foodie <span>.</span></a>
+			<div class="menuToggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">
+				<li><a href="index.html" onclick="toggleMenu();"> Home </a></li>
+				<li><a href="about.html" onclick="toggleMenu();"> About </a></li>
+				<li><a href="menu.html" onclick="toggleMenu();"> Menu </a></li>
+				<li><a href="expert.html" onclick="toggleMenu();"> Expert </a></li>
+				<li><a href="testimonials.html" onclick="toggleMenu();"> Testimonials </a></li>
+				<li><a href="order.html" onclick="toggleMenu();"> Order </a></li>
+				<li onclick="myFunction()"><a href="#" class="fas fa-moon"></a></li>
+				<li><a href="cart_file/cart.html" class="fa fa-shopping-cart"></a></li>
+			</ul>	
+		</div>	
+	</header>
+
+	<!-- _________________________MENU SECTION_________________________ -->
+
+	<section class="menu" id="menu">
+		<div class="title">
+			<h2 class="titleText"> Our <span>M</span>enu</h2> 
+			<p> WE SERVE TEA TIME TO DINNER TIME </p>
+		</div>
+		<div class="modal">
+		    <button class="btn" id="btn1"> Breakfast </button>
+		    <button class="btn" id="btn2"> Lunch </button>
+		    <button class="btn" id="btn3"> Dinner </button>
+		    <button class="btn" id="btn4"> Desert </button>
+		    <div class="image-container" id="img1">
+		      <span class="close" id="close1">&#10006;</span>
+		      <img src="images/menu11.jpg" alt="">
+		    </div>
+		    <div class="image-container" id="img2">
+		      <span class="close" id="close2">&#10006;</span>
+		      <img src="images/menu22.jpg" alt="">
+		    </div>
+		    <div class="image-container" id="img3">
+		      <span class="close" id="close3">&#10006;</span>
+		      <img src="images/menu33.jpg" alt="">
+		    </div>
+		    <div class="image-container" id="img4">
+		      <span class="close" id="close4">&#10006;</span>
+		      <img src="images/menu44.jpg" alt="">
+		    </div>
+		</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/menu1.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3> Special Salads</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/menu2.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3> Special Soup</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/menu3.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3> Special Pasta</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/menu4.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3> Special Salads</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/menu5.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3> Special Soup</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/menu6.jpg" alt="">
+				</div>
+				<div class="text">
+					<h3> Special Pasta</h3>
+				</div>
+			</div>
+		</div>
+		<div class="title">
+			<a href="cart_file/cart.html" class="btn" > View All </a>
+		</div>
+	</section>
+
+	<!-- _________________________FOOTER SECTION_________________________ -->
+
+	<div class="footer">
+	    <div class="box-container">
+	        <div class="box">
+	            <h2>Quick Links </h2>
+	            <a href="index.html">Home</a>
+	            <a href="about.html">About</a>
+	            <a href="menu.html">Menu</a>
+	            <a href="expert.html">Expert</a>
+	            <a href="testimonials.html">Testimonials</a>
+	            <a href="order.html">Order</a>
+	        </div>
+	        <div class="box">
+	            <h2>Follow Us</h2>
+	            <p> <i class="fab fa-facebook"></i>&nbsp; &nbsp;Facebook<a href="https://www.facebook.com"></a></p>
+		        <p> <i class="fab fa-instagram"></i>&nbsp; &nbsp;Instagram<a href="https://www.instagram.com"></a> </p>
+		        <p> <i class="fab fa-twitter"></i>&nbsp;&nbsp;Twitter<a href="https://www.twitter.com"></a></p>
+		        <p> <i class="fab fa-youtube"></i>&nbsp;&nbsp;Youtube <a href="https://www.youtube.com"></a></p>
+	        </div>
+	        <div class="box">
+	            <h2>Contact Info</h2>
+	            <p> <i class="fas fa-map-marker-alt"></i>&nbsp; &nbsp;New Baneshwor, Kathmandu </p>
+	            <p> <i class="fas fa-envelope"></i>&nbsp; &nbsp;foodie@gmail.com </p>
+	            <p> <i class="fas fa-phone"></i>&nbsp; &nbsp;+977-98903591181</p>
+	        </div>
+	    </div>
+    </div>
+
+    <!-- _________________________COPYRIGHT SECTION_________________________ -->
+
+	<div class="copyrightText">
+		<p>Copyright © 2021 <a href="#"><b>Foodie</b> <span>.</span></a> All Right Reserved</p>
+	</div>
+
+	<!-- _________________________ DIVISION MENU SECTION_________________________ -->
+
+	<script>
+
+		const btn1 =document.querySelector('#btn1');
+		const btn2 =document.querySelector('#btn2');
+		const btn3 =document.querySelector('#btn3');
+		const btn4 =document.querySelector('#btn4');
+	    const imageContainer1=document.querySelector('#img1');
+	    const imageContainer2=document.querySelector('#img2');
+	    const imageContainer3=document.querySelector('#img3');
+	    const imageContainer4=document.querySelector('#img4');
+	    const close1=document.querySelector('#close1');
+	    const close2=document.querySelector('#close2');
+	    const close3=document.querySelector('#close3');
+	    const close4=document.querySelector('#close4');
+
+	    btn1.addEventListener('click',()=>{
+	      imageContainer1.classList.add('show');
+	    })
+	    btn2.addEventListener('click',()=>{
+	      imageContainer2.classList.add('show');
+	    })
+	    btn3.addEventListener('click',()=>{
+	      imageContainer3.classList.add('show');
+	    })
+	    btn4.addEventListener('click',()=>{
+	      imageContainer4.classList.add('show');
+	    })
+
+	    close1.addEventListener('click',()=>{
+	    	imageContainer1.classList.remove('show'); 
+	    })
+	    close2.addEventListener('click',()=>{
+	      imageContainer2.classList.remove('show');
+	    })
+	    close3.addEventListener('click',()=>{
+	      imageContainer3.classList.remove('show');
+	    })
+	    close4.addEventListener('click',()=>{
+	      imageContainer4.classList.remove('show');
+	    })
+
+	</script>
+</body>
+</html>

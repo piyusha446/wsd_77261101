@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Foodie Home Page </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="main.js"></script>	
+</head>
+<body>
+
+	<!-- _________________________NAVIGATION BAR_________________________ -->
+
+	<header>
+		<a href="#" class="logo"> Foodie <span>.</span></a>
+		<div class="menuToggle" onclick="toggleMenu();"></div>
+		<ul class="navigation">
+			<li><a href="index.html" onclick="toggleMenu();"> Home </a></li>
+			<li><a href="about.html" onclick="toggleMenu();"> About </a></li>
+			<li><a href="menu.html" onclick="toggleMenu();"> Menu </a></li>
+			<li><a href="expert.html" onclick="toggleMenu();"> Expert </a></li>
+			<li><a href="testimonials.html" onclick="toggleMenu();"> Testimonials </a></li>
+			<li><a href="order.html" onclick="toggleMenu();"> Order </a></li>
+			<li onclick="myFunction()"><a href="#" class="fas fa-moon"></a></li>
+			<li><a href="cart_file/cart.html" class="fa fa-shopping-cart"></a></li>
+		</ul>
+	</header>
+	
+	<!-- _________________________HOME SECTION_________________________ -->
+
+	<section class="banner" id="banner">
+		<div class="content">
+			<h2> Good Food, Good Life </h2>
+			<p>OUR MISSION IS TO PROVIDE AN UNFORGETTABLE FOOD EXPERIENCE</p>
+			<a href="menu.html" class="btn"> Our Menu </a>
+		</div>
+	</section>
+
+	<!-- _________________________BLOG SECTION_________________________ -->
+
+	<section class="blog" id="blog">
+		<div class="title">
+			<h2 class="titleText">  <span>B</span>logs</h2> 
+			<p> READ WHAT OUR FOODIE FAMILY HAS TO SAY </p>
+		</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgBx">
+					<h4>Why Choose Foodie ?</h4>
+				</div>
+				<div class="text">
+					<p>Real food is food that is as close to its natural state as possible. However, since processed foods became popular in the 20th century, the Western diet has shifted more toward ready-to-eat.</p>
+					<a href="#"> Read More </a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<h4>Taste of foodie</h4>
+				</div>
+				<div class="text">
+					<p>You don’t have to be a fan of sophisticated food to enjoy this often entertaining illuminating lecture on America’s current taste revolution. Foodie is the aesthetics of food and the role of taste in our everyday lives.</p>
+					<a href="#">Read More </a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<h4>Healthy & Nutritious Food</h4>
+				</div>
+				<div class="text">
+					<p>Consuming a healthy diet throughout the life-course helps to prevent malnutrition in all its forms. People are now consuming more foods high in energy, fats, free sugars and salt/sodium.</p>
+					<a href="#">Read More </a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<h4>Better health, Better wealth</h4> 
+				</div>
+				<div class="text">
+					<p>Good Health is extremely important, invaluable and indispensable. A Healthy body paves the way for a healthy mind. When the mind is at peace a lot can be achieved in terms of name, fame and money.</p>
+					<a href="#">Read More </a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<h4>Enjoy life & food</h4>
+				</div>
+				<div class="text">
+					<p>  Food  gives  us  all  the  required  nutrients  that  our  body  needs  in  order   to  perform  activities  in  our  daily  life.  People  usually  find  it  difficult  when  choosing  the  right  and  effective diet.</p>
+					<a href="#">Read More </a>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<h4>Balanced diet & life</h4>
+				</div>
+				<div class="text">
+					<p>A healthy lifestyle can be attained by maintaining a balanced diet and keeping into consideration to meet all the essential nutrients required by the body lies in the intake of the right amount of calories.</p>
+					<a href="#">Read More </a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- _________________________MAP SECTION_________________________ -->
+
+	<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.92457744496!2d85.33106357327314!3d27.694703324261294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb199a06c2eaf9%3A0xc5670a9173e161de!2sNew%20Baneshwor%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1599641903906!5m2!1sen!2snp"></iframe>
+	</div>
+
+	<!-- _________________________FOOTER SECTION_________________________ -->
+
+	<div class="footer">
+	    <div class="box-container">
+	        <div class="box">
+	            <h2>Quick Links </h2>
+	            <a href="index.html">Home</a>
+	            <a href="about.html">About</a>
+	            <a href="menu.html">Menu</a>
+	            <a href="expert.html">Expert</a>
+	            <a href="testimonials.html">Testimonials</a>
+	            <a href="order.html">Order</a>
+	        </div>
+	        <div class="box">
+	            <h2>Follow Us</h2>
+	            <p> <i class="fab fa-facebook"></i>&nbsp; &nbsp;Facebook<a href="https://www.facebook.com"></a></p>
+		        <p> <i class="fab fa-instagram"></i>&nbsp; &nbsp;Instagram<a href="https://www.instagram.com"></a> </p>
+		        <p> <i class="fab fa-twitter"></i>&nbsp;&nbsp;Twitter<a href="https://www.twitter.com"></a></p>
+		        <p> <i class="fab fa-youtube"></i>&nbsp;&nbsp;Youtube <a href="https://www.youtube.com"></a></p>
+	        </div>
+	        <div class="box">
+	            <h2>Contact Info</h2>
+	            <p> <i class="fas fa-map-marker-alt"></i>&nbsp; &nbsp;New Baneshwor, Kathmandu </p>
+	            <p> <i class="fas fa-envelope"></i>&nbsp; &nbsp;foodie@gmail.com </p>
+	            <p> <i class="fas fa-phone"></i>&nbsp; &nbsp;+977-98903591181</p>
+	        </div>
+	    </div>
+    </div>
+    
+    <!-- _________________________COPYRIGHT SECTION_________________________ -->
+    
+	<div class="copyrightText">
+		<p>Copyright © 2021 <a href="#"><b>Foodie</b> <span>.</span></a> All Right Reserved</p>
+	</div>
+</body>
+</html>

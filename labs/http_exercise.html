@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Introduction to HTTP and Security</title>
+</head>
+<body>
+	<h1>Introduction to HTTP and Security</h1>
+
+	<p><b> 1) What is the Hypertext Transfer Protocol (HTTP) ?</b></p>
+	<p>Ans: Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. </p>
+
+	<p><b> 2) Why is HTTP called a stateless protocol ? </b></p>
+	<p>Ans: HTTP is called as a stateless protocol because each request is executed independently, without any knowledge of the requests that were executed before it, which means once the transaction ends the connection between the browser and the server is also lost.</p>
+
+	<p> <b>3) Describe the three phases of establishing a session using client-server protocols such as HTTP.</b></p>
+	<p>Ans: The three phases of establishing a session using client-server protocols such as HTTP are as follows: <br><br>
+		1) The client establishes a TCP connection (or the appropriate connection if the transport layer is not TCP). <br>
+		2) The client sends its request, and waits for the answer. <br>
+		3) The server processes the request, sending back its answer, providing a status code and appropriate data.
+
+	<p> <b>4) Describe the parameters on a get and post request. </b></p>
+	<p>Ans:The GET method requests a representation of the specified resource. Requests using GET should only retrieve data. <br> <br>
+	The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.	</p>
+
+	<p><b> 5) What are the HTTP response status code and What do the HTTP status codes, 200, and 404 indicate ?</b></p>
+	<p>Ans: HTTP response status codes indicate whether a specific HTTP request has been successfully completed and the HTTP 200 OK success status response code indicates that the request has succeeded while the HTTP 404 Not Found client error response code indicates that the server can't find the requested resource.	</p>
+
+	<p><b> 6) What are HTTP cookies? Give an example. </b></p>
+	<p>Ans: An HTTP cookie (web cookie, browser cookie) is a small piece of data that a server sends to the user's web browser. For example, a web server might send a cookie containing the username that was last used to log into a website, so that it may be filled in automatically the next time the user logs in.</p>
+
+	<p><b> 7) Why are cookies a security issue ?</b></p>
+	<p>Ans: Cookies are a security issue because it can be read and modified by someone with access to the client's hard disk (or JavaScript if the HttpOnly attribute is not set).</p>
+
+	<p><b> 8) Describe session hijacking and XSS.</b></p>
+	<p>Ans: Session hijacking consists of gaining access to and misusing a user's authenticated session. This may happen by stealing a cookie for an existing session, or by fooling the user (or their browser) into setting a cookie with a predetermined session ID. <br><br>
+    Cross-site scripting (XSS) is a security exploit which allows an attacker to inject into a website malicious client-side code. This code is executed by the victims and lets the attackers bypass access controls and impersonate users.</p>
+
+	<p><b> 9) Describe Cross-site request forgery(CSRF).</b></p>
+	<p>Ans: Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on a web application in which they’re currently authenticated.</p>
+
+	<p><b> 10) What are Cross-site HTTP requests (CORS) and what requests use CORS ?</b></p>
+	<p>Ans: Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any other origins (domain, scheme, or port) than its own from which a browser should permit loading of resources. 
+	The requests that CORS use are as follows: <br><br>
+
+	1) Invocations of the XMLHttpRequest or Fetch APIs<br>
+	2) Web Fonts (for cross-domain font usage in @font-face within CSS), so that servers can deploy TrueType fonts that can only be cross-site loaded and used by web sites that are permitted to do so.<br>
+	3) WebGL textures. <br>
+	4) Images/video frames drawn to a canvas using drawImage(). <br>
+	5) CSS Shapes from images.</p>
+	
+</body>
+</html>
+
+

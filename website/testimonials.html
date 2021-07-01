@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Foodie Testimonials Page </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+	<!-- _________________________NAVIGATION BAR_________________________ -->
+	
+	<header>
+		<div class="wrapper">
+			<a href="index.html" class="logo"> Foodie <span>.</span></a>
+			<div class="menuToggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">
+				<li><a href="index.html" onclick="toggleMenu();"> Home </a></li>
+				<li><a href="about.html" onclick="toggleMenu();"> About </a></li>
+				<li><a href="menu.html" onclick="toggleMenu();"> Menu </a></li>
+				<li><a href="expert.html" onclick="toggleMenu();"> Expert </a></li>
+				<li><a href="testimonials.html" onclick="toggleMenu();"> Testimonials </a></li>
+				<li><a href="order.html" onclick="toggleMenu();"> Order </a></li>
+				<li onclick="myFunction()"><a href="#" class="fas fa-moon"></a></li>
+				<li><a href="cart_file/cart.html" class="fa fa-shopping-cart"></a></li>
+			</ul>	
+		</div>	
+	</header>
+
+	<!-- _________________________TESTIMONIALS SECTION_________________________ -->
+
+	<section class="testimonials" id="testimonials">
+		<div class="title white">
+			<h2 class="titleText"> They <span>S</span>aid About Us</h2> 
+			<p> OUR CUSTOMER, OUR FAMILY</p>
+		</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/testi1.jpg" alt="">
+				</div>
+				<div class="text">
+					<p>I had breakfast there this morning and dinner tonight. All were well beyond my expectations. Everything is so fresh. Best clam chowder I have ever had.  Breakfast will knock your slippers off.</p>
+					<h3>Ina Garten</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/testi2.jpg" alt="">
+				</div>
+				<div class="text">
+					<p>The food is excellent, generous portions and great prices. The service was fast and friendly. I highly recommended it if you’re in the Wellfleet area.The most amazing food ever! And also the staff is so nice to everyone.</p>
+					<h3>Gail Simmons</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/testi3.jpg" alt="">
+				</div>
+				<div class="text">
+					<p>Foodie has great pizza, the best! I am picky about my pizza. Their pies are huge, not two much sauce and a great mixture of cheeses. I highly recommend buying food from here. The best pizza ever.</p>
+					<h3>Tyler Florence</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/testi4.jpg" alt="">
+				</div>
+				<div class="text">
+					<p>Group of six of us for a late dinner. Plenty of menu options and service was very good. Food was delicious and we were happy to have leftovers to take home. Great food, omelet was light and fluffy! also the service was spot on.</p>
+					<h3>David Chang</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/testi5.jpg" alt="">
+				</div>
+				<div class="text">
+					<p>My husband and I had our Anniversary dinner at the Fairway last night. We sat outside on the terrace which was very pretty and private. Our waitress was wonderful and the food was absolutely delicious. Highly recommended !!</p>
+					<h3>Brenda Barnes</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBx">
+					<img src="images/testi6.jpg" alt="">
+				</div>
+				<div class="text">
+					<p>The service was way above standard. Jack our server was attentive and didn’t skip a detail. My salad was spectacular! I did order a cannoli with toasted almonds on the ends and highly recommend it. Definitely will make a trip back again.</p>
+					<h3>Richard Lenny</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- _________________________FOOTER SECTION_________________________ -->
+
+	<div class="footer">
+	    <div class="box-container">
+	        <div class="box">
+	            <h2>Quick Links </h2>
+	            <a href="index.html">Home</a>
+	            <a href="about.html">About</a>
+	            <a href="menu.html">Menu</a>
+	            <a href="expert.html">Expert</a>
+	            <a href="testimonials.html">Testimonials</a>
+	            <a href="order.html">Order</a>
+	        </div>
+	        <div class="box">
+	            <h2>Follow Us</h2>
+	            <p> <i class="fab fa-facebook"></i>&nbsp; &nbsp;Facebook<a href="https://www.facebook.com"></a></p>
+		        <p> <i class="fab fa-instagram"></i>&nbsp; &nbsp;Instagram<a href="https://www.instagram.com"></a> </p>
+		        <p> <i class="fab fa-twitter"></i>&nbsp;&nbsp;Twitter<a href="https://www.twitter.com"></a></p>
+		        <p> <i class="fab fa-youtube"></i>&nbsp;&nbsp;Youtube <a href="https://www.youtube.com"></a></p>
+	        </div>
+	        <div class="box">
+	            <h2>Contact Info</h2>
+	            <p> <i class="fas fa-map-marker-alt"></i>&nbsp; &nbsp;New Baneshwor, Kathmandu </p>
+	            <p> <i class="fas fa-envelope"></i>&nbsp; &nbsp;foodie@gmail.com </p>
+	            <p> <i class="fas fa-phone"></i>&nbsp; &nbsp;+977-98903591181</p>
+	        </div>
+	    </div>
+    </div>
+
+    <!-- _________________________COPYRIGHT SECTION_________________________ -->
+
+	<div class="copyrightText">
+		<p>Copyright © 2021 <a href="#"><b>Foodie</b> <span>.</span></a> All Right Reserved</p>
+	</div>
+</body>
+</html>
